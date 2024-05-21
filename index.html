@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang=""en">
+<head>
+    <meta charset="UTF-8">
+<!--https://stackoverflow.com/questions/6397748/whats-the-point-of-meta-viewport-user-scalable-no-in-the-google-maps-api-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Memory Card Game</h1>
+    <div class="grid-container"></div> <!--filled in dynamically-->
+<!--display score/time with empty element where value will be displayed-->
+    <p>Score: <span class="score"></span></p>
+    <p>Time: <span class="time"></span></p>
+    <div class="actions">
+        <!--restart button for restart function-->
+        <button onclick="restart()">Restart</button> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
